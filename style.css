@@ -1,0 +1,209 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 40px;
+  text-shadow: 2px 2px 2px #c3c2c2;
+}
+
+.form-inline {
+  width: 70%;
+  margin: 0px auto;
+  padding: 30px;
+  background-color: #edeaea;
+  border-radius: 10px;
+}
+
+#form {
+  margin: 0px auto;
+  width: 50%;
+}
+
+.form-table {
+  width: 500px;
+  margin: 50px auto 100px auto;
+  padding: 20px;
+  border-collapse: collapse;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  box-shadow: 0 0 20px #13e13f;
+  border-radius: 10px;
+}
+
+.default-input {
+  margin: 20px auto;
+  /* width: 50% !important; */
+}
+
+#show-countdown {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+#show-api {
+  width: 70%;
+  background-color: white;
+  margin: 20px 15%;
+  position: relative;
+  display: inline-block;
+}
+
+#id-container {
+  display: none;
+}
+
+.show-container {
+  width: 100%;
+  height: auto;
+  margin: 0px auto;
+}
+
+.one {
+  width: 60%;
+  height: auto;
+  background: white;
+  float: right;
+}
+
+.one p {
+  font-size: 16px;
+  width: 100%;
+  text-align: left;
+}
+
+#submit-favorit {
+  margin-top: 10px;
+}
+
+.api-title {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.api-date {
+  font-size: 14px;
+  font-style: italic;
+  text-align: left;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#show-fav {
+  width: 70%;
+  background-color: white;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.fav-container {
+  width: 100%;
+  height: 200px;
+  margin: 10px auto;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+}
+
+.two {
+  width: 35%;
+  margin-right: 70%;
+  height: auto;
+  background: white;
+}
+
+.two img {
+  max-width: 100%;
+  height: auto;
+  background: white;
+  border-radius: 4px;
+}
+
+#fav-titel {
+  width: 100%;
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.favone {
+  width: 70%;
+  height: 80px;
+  background: #fff;
+  float: right;
+  margin-top: 20px;
+  margin-right: 5%;
+}
+
+.favtwo {
+  width: 15%;
+  margin-right: 60%;
+  height: auto;
+  max-height: 100%;
+  background: white;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.favtwo img {
+  margin: 20px;
+  max-width: 150px;
+  height: auto;
+  background: white;
+  border-radius: 10px;
+}
+
+.favone-title {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.favone-date {
+  font-size: 14px;
+  font-style: italic;
+  text-align: left;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+@media (min-width: 768px) {
+  .form-inline .form-control {
+    width: 100% !important;
+  }
+}
+
+.span-text {
+  color: #ff0000 !important;
+}
+
+span .label {
+  color: black !important;
+}
+
+#show-title {
+  font-weight: bold;
+}
+
+#show-finish {
+  display: none;
+}
+
+#stop-form {
+  display: none;
+  margin-top: 40px;
+}
